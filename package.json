@@ -1,0 +1,31 @@
+{
+  "name": "go-functional",
+  "description": "Do things functional way",
+  "scripts": {
+    "start": "webpack-dev-server --content-base=public"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "7.0.0-beta.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.22.0",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-vue-app": "^1.2.0",
+    "cross-env": "^4.0.0",
+    "css-loader": "^0.28.1",
+    "file-loader": "^0.11.1",
+    "node-sass": "^4.5.2",
+    "ramda": "^0.23.0",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.17.0",
+    "url-parse": "^1.1.9",
+    "vue": "^2.2.6",
+    "vue-loader": "^11.3.4",
+    "vue-template-compiler": "^2.2.6",
+    "vuex": "^2.3.1"
+  }
+}
